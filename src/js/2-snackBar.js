@@ -5,6 +5,7 @@ const refs = {
   form: document.getElementById('form'),
   btnSumbit: document.getElementById('submit'),
 };
+
 refs.form.addEventListener('submit', handleSumbit);
 
 function handleSumbit(event) {
