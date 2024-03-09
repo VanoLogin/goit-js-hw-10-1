@@ -4,6 +4,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 const refs = {
   form: document.getElementById('form'),
   btnSumbit: document.getElementById('submit'),
+  
 };
 
 refs.form.addEventListener('submit', handleSumbit);
